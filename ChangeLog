@@ -1,0 +1,34 @@
+1999-05-23  Per Lundberg  <plundis@debian.org>
+
+	* editor.cc (edit_message): Made a nicify function to reflow quoted
+	text, and also started rewriting parts of the editor with
+	"undocumented features". :-)
+
+1999-05-04  Per Lundberg  <plundis@debian.org>
+
+	* keyboard_linux.cc: made the keyboard routines treat Alt and AltGr
+	differently.
+	* screen_linux.cc and screen_ncurses.cc: optimized the screen output
+	so that the output buffer is just flushed when necessary. This makes
+	especially the ncurses version a *lot* quicker.
+
+1999-04-23  Per Lundberg  <plundis@debian.org>
+
+	* reader.cc (choose_area): Quick-selection of area is now possible.
+ 	Just start typing the area tag, and the area selector will match it
+	with the area you're requesting.
+
+1999-04-20  Per Lundberg  <plundis@debian.org>
+
+	* src/editor.cc: Rewrote parts of the editor in a much more optimized
+	way, which makes it quite smoother when running in high resolutions.
+	It is not complete yet, but will be as soon as I (or someone else
+	has got the time).
+
+	* src/misc.cc: The regexp searching for reply string has been
+ 	converted to "basic" format (i.e. POSIX) so it'll work in the DOS
+	version too. It doesn't seem to work very well yet, though. :-/
+	I could use some help with this, since I'm not very experienced
+	with regular expressions.
+
+	* First official version (0.0.2) almost released.

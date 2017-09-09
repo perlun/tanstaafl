@@ -1,0 +1,43 @@
+This is a list of features to implement in some future version of tanstaafl.
+The version number says in which version they probably will be done.
+in no special order:
+
+0.0.5
+=====
+* Fast "right arrow at end of area" (should be rewritten totally).
+* Make replying of messages with lines above 80 columns work.
+* Sort the packets by date when tossing, so we don't screw things up.
+
+0.0.6
+=====
+* Search function, like in timEd.
+* Undelete function in the editor.
+* Color highlighting of *bold*, _underlined_ and /italic/ text.
+* Rewrite libui to support multicolor strings (not really something that should
+be done in tanstaafl, but WTF..).
+* Copy and move messages to a selected area.
+* Support for dead keys in the Linux console version. (also a libui thingie)
+
+0.1.0
+=====
+* Support for external archivers.
+* An ability to select between only the areas in which there are new messages.
+* EMSI-capable mailer.
+* binkp mailer. (30% done)
+* User-definable origins for every single area.
+* Random origins.
+* Personal mail area.
+* User-definable macros when writing netmail.
+* Nodelist support.
+* Templates when writing messages.
+* Editing of local !sent messages.
+* Purging of old messages when doing maintenance.
+* Support for external editors.
+* Creation and deletion of new echoes at will.
+* Piping through external programs.
+* Support for other character sets.
+
+If you feel something is missing, feel free to send a netmail to Per Lundberg
+at 2:206/145.2000 or an E-mail to plundis@debian.org, and I'll take it under
+consideration. Patches are of course also welcome, but please state clearly
+what they're supposed to do.

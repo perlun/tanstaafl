@@ -1,0 +1,6 @@
+# compress.txt, specifies which decompression programs to use
+# first column gives an archive signature, second column gives to uncompress
+# command ro run. the name of the archive is appended to this command. the
+# current directory is also set to the target path.
+
+PK "unzip -qqoj"
